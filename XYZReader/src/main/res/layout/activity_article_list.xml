@@ -25,9 +25,9 @@
             app:contentScrim="?attr/colorPrimary"
             app:collapsedTitleTextAppearance="@style/ToolbarTitleCollapseTextAppearance"
             app:expandedTitleTextAppearance="@style/ToolbarTitleTextAppearance"
-            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginStart="@dimen/collapsable_toolbar_margin_start"
             app:expandedTitleGravity="center|bottom"
-            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginEnd="@dimen/collapsable_toolbar_margin_end"
             >
 
            <!-- <ImageView
